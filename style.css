@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-color: #eff4fd;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fd4768;
+  cursor: pointer;
+}
+.logo::first-letter {
+  font-size: 80px;
+  border: 5px solid #fd4768;
+  border-radius: 10px;
+  border-right: transparent;
+  color: #000;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
+  color: #000000;
+}
+nav ul li a:hover {
+  color: #fd4768;
+  transition: all 0.3s ease-in-out;
+}
+.btn_hireme {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #fd4768;
+  border-radius: 350px;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+  border: 2px solid #fd4768;
+}
+.btn_hireme:hover{
+    background-color: transparent;
+    color: #fd4768;
+}
+.details{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+.details h1{
+    color: #1f1f25;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.details h1 span{
+    color: #fd4768;
+}
+.details p{
+    color: #1f1f25;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px; 
+}
+
+.btn_cv {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #fd4768;
+    border-radius: 350px;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid #fd4768;
+  }
+  .btn_cv:hover{
+      background-color: transparent;
+      color: #fd4768;
+  }
+  .hero-img{
+    display:block;
+    position: absolute;
+    top: 37%;
+    right: 10%;
+    width: 30%;
+    height: 80%;
+  }
