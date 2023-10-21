@@ -43,7 +43,7 @@ nav ul li a:hover {
   color: #fd4768;
   transition: all 0.3s ease-in-out;
 }
-.btn_hireme {
+.btn{
   color: white;
   font-size: 16px;
   text-transform: uppercase;
@@ -81,20 +81,7 @@ nav ul li a:hover {
     font-size: 15px; 
 }
 
-.btn_cv {
-    color: white;
-    font-size: 16px;
-    text-transform: uppercase;
-    background-color: #fd4768;
-    border-radius: 350px;
-    text-decoration: none;
-    padding: 10px 30px;
-    display: inline-block;
-    font-weight: 500;
-    transition: all 0.5s ease-in-out;
-    border: 2px solid #fd4768;
-  }
-  .btn_cv:hover{
+  .btn:hover{
       background-color: transparent;
       color: #fd4768;
   }
